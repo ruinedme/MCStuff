@@ -1,0 +1,3 @@
+execute at @e[name="Water Bucket"] as @p if entity @p[distance=2..4] if block ~ 127 ~ minecraft:bedrock run setblock ~ ~ ~ minecraft:water
+execute at @e[name="Water Bucket"] as @p if entity @p[distance=2..4] if block ~ 127 ~ minecraft:bedrock run give @p minecraft:bucket
+execute at @e[name="Water Bucket"] as @p if entity @p[distance=2..4] if block ~ 127 ~ minecraft:bedrock run kill @e[name="Water Bucket",distance=0..1]
