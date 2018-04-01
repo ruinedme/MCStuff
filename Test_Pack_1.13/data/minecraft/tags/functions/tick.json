@@ -1,6 +1,7 @@
 {
 	"replace":false,
 	"values":[
-		"testpack:netherwater"
+		"testpack:netherwater",
+		"testpack:modify_ender_dragon_loot"
 	]
 }
