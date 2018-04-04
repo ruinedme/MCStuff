@@ -15,3 +15,7 @@ Files in testpack add additional things.
 -Placeable water in the nether
 
 -Modify Ender Dragon Loot Tables to drop 1 Dragon Egg and 1 Elytra
+
+-QoL recipe for Sticks where 2 logs will craft 16 Sticks recipes are 1:1 (2 Logs = 8 Planks = 16 Sticks)
+
+-QoL recipe for Chests where 8 logs will craft 4 chests recipes are 1:1 (8 Logs = 32 Planks = 4 Chests)
