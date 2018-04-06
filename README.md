@@ -19,3 +19,5 @@ Files in testpack add additional things.
 -QoL recipe for Sticks where 2 logs will craft 16 Sticks recipes are 1:1 (2 Logs = 8 Planks = 16 Sticks)
 
 -QoL recipe for Chests where 8 logs will craft 4 chests recipes are 1:1 (8 Logs = 32 Planks = 4 Chests)
+
+-Custom Recipe for leather, 4 rotten flesh = 1 leather
