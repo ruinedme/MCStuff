@@ -19,3 +19,5 @@ Files in testpack add additional things.
 -QoL recipe for Chests where 8 logs will craft 4 chests recipes are 1:1 (8 Logs = 32 Planks = 4 Chests) w/Advancement
 
 -Custom Recipe for leather, 4 rotten flesh = 1 leather w/Advancement
+
+-SMP 1 Person Sleep function, as long as someone is sleeping for 100 ticks set time to 0
