@@ -2,7 +2,7 @@
 	"replace":false,
 	"values":[
 		"testpack:netherwater",
-		"testpack:modify_ender_dragon_loot",
-		"testpack:smp_sleep_tick"
+		"testpack:smp_sleep_tick",
+		"testpack:time_tick"
 	]
 }
