@@ -24,4 +24,4 @@ Test_Pack_1.13 Currently contains
 
 -SMP 1 Person Sleep function, as long as someone is sleeping for 100 ticks set time to 0
 
--Utility Day/Time scorwboard objectives. You will need to run /scoreboard objectives setdisplay ... if you want the score to be visible.(Useful for timed MC challenges)
+-Utility Day/Time scoreboard objectives. You will need to run /scoreboard objectives setdisplay ... if you want the score to be visible.(Useful for timed MC challenges)
