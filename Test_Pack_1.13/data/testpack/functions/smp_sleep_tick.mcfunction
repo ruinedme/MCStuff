@@ -1,4 +1,5 @@
-execute at @a as @a[scores={Sleeping = 0}] store result score @a Sleeping run data get entity @s Sleeping 1
-execute at @a as @a[scores={Sleeping = 1..}] run scoreboard players operation @s[scores={Sleeping = 1..100}] Sleeping += 1 Sleeping
-execute if entity @a[scores={Sleeping = 100..}] run time set 0
-scoreboard players set @a[scores={Sleeping = 100..}] Sleeping 0
+execute store result score time Sleeping run time query daytime
+execute at @a as @a[nbt={"Sleeping":1b}] run scoreboard players operation @s Sleeping += 1 Sleeping
+execute at @a as @a[nbt={"Sleeping":0b},scores={Sleeping = 1..99}] run scoreboard players set @s Sleeping 0
+execute if entity @a[scores={Sleeping=50..}] run time add 200
+execute if score time Sleeping <= 200 Sleeping run scoreboard players set @a[scores={Sleeping = 99..}] Sleeping 0
