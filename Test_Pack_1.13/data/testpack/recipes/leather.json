@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {
-    "item": "minecraft:stone_bricks",
-    "count": 4
+    "item": "minecraft:leather",
+    "count": 1
   }
 }
