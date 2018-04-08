@@ -3,7 +3,9 @@ Random MC Test ideas
 
 #Notes:
 -Files in the minecraft namespace override existing files
+
 -Files in testpack add additional things.
+
 -Functions titled with _load or _tick ,_ is reccomended that they be placed in /data/minecraft/tags/functions/load.json and /data/minecraft/tags/functions/tick.json respectively
 
 Test_Pack_1.13 Currently contains
