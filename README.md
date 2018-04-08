@@ -7,7 +7,7 @@ Random MC Test ideas
 
 -Files in testpack add additional things.
 
--Functions titled with _load or _tick ,_ is reccomended that they be placed in /data/minecraft/tags/functions/load.json and /data/minecraft/tags/functions/tick.json respectively
+-Functions titled with \_load or \_tick , is reccomended that they be added to /data/minecraft/tags/functions/load.json and /data/minecraft/tags/functions/tick.json respectively
 
 Test_Pack_1.13 Currently contains
 
