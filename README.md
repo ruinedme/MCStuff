@@ -1,10 +1,12 @@
 # MCStuff
 Random MC Test ideas
 
-Test_Pack_1.13 Currently contains
+#Notes:
+-Files in the minecraft namespace override existing files
+-Files in testpack add additional things.
+-Functions titled with _load or _tick ,_ is reccomended that they be placed in /data/minecraft/tags/functions/load.json and /data/minecraft/tags/functions/tick.json respectively
 
-Files in the minecraft namespace override existing files
-Files in testpack add additional things.
+Test_Pack_1.13 Currently contains
 
 -Disabling Enderman griefing
 
@@ -21,3 +23,5 @@ Files in testpack add additional things.
 -Custom Recipe for leather, 4 rotten flesh = 1 leather w/Advancement
 
 -SMP 1 Person Sleep function, as long as someone is sleeping for 100 ticks set time to 0
+
+-Utility Day/Time scorwboard objectives. You will need to run /scoreboard objectives setdisplay ... if you want the score to be visible.(Useful for timed MC challenges)
