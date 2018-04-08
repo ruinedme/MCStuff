@@ -1,6 +1,7 @@
 {
 	"replace":false,
 	"values":[
-		"testpack:smp_sleep_load"
+		"testpack:smp_sleep_load",
+		"testpack:time_load"
 	]
 }
