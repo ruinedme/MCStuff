@@ -1,0 +1,19 @@
+{
+  "parent": "skyblock:item/lantern",
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": "Let it snow!",
+    "description": "Build 10 Snow Golems",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "summoned_golem": {
+       "trigger": "minecraft:impossible"
+	   }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"parent": "skyblock:item/melon",
+  	"display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "title": "It's probably a fun guy",
+    "description": "Craft 10 mushroom stew",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "get_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mushroom_stew",
+            "count":{
+            	"min":10
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute at @a as @p if score @p Snowman >= 10 Snowman run advancement grant @p only skyblock:summon_snow_golem

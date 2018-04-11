@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "group":"leather",
+  "rewards": {
+    "recipes": [
+      "skyblock:blaze_rod"
+    ]
+  },
+  "criteria": {
+    "has_rotten_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_powder"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rotten_flesh"
+    ]
+  ]
+}
