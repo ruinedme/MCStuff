@@ -1,0 +1,29 @@
+{
+	"parent": "skyblock:item/light_gray_wool",
+  	"display": {
+    "icon": {
+      "item": "minecraft:lime_wool"
+    },
+    "title": "Wool",
+    "description": "Craft 10 lime Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "get_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_wool",
+            "count":{
+            	"min":10
+            }
+          }
+        ]
+      }
+    }
+  }
+}

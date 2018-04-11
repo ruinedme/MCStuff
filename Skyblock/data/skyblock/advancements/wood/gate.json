@@ -1,0 +1,29 @@
+{
+	"parent": "skyblock:wood/fence",
+  	"display": {
+    "icon": {
+      "item": "minecraft:oak_fence_gate"
+    },
+    "title": "It's a gateway advancement",
+    "description": "Craft 20 gates",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "get_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+         "items": [
+          {
+            "tag": "skyblock:gates",
+            "count":{
+            	"min":20
+            }
+          }
+        ]
+      }
+    }
+  }
+}

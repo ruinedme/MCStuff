@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#x#",
+    "x#x",
+    "#x#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    },
+    "x":{
+    	"item":"minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_sand",
+    "count": 1
+  }
+}
