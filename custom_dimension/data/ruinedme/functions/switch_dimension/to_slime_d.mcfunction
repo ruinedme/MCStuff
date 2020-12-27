@@ -1,0 +1,1 @@
+execute in minecraft:slime_d run tp @p ~ ~ ~

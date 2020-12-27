@@ -1,0 +1,42 @@
+{
+	"bedrock_roof_position":-1,
+	"bedrock_floor_position":5,
+	"sea_level": 63,
+	"disable_mob_generation": false,
+	"structures":{
+		"structures":{}
+	},
+	"noise":{
+		"top_slide":{
+			"target":-1,
+			"size":1,
+			"offset":0
+		},
+		"bottom_slide":{
+			"target":1,
+			"size":1,
+			"offset":0
+		},
+		"sampling":{
+			"xz_scale": 1.0,
+			"xz_factor": 0.01,
+			"y_scale": 1.0,
+			"y_factor": 0.01
+		},
+		"size_vertical": 1,
+		"size_horizontal": 1,
+		"height": 128,
+		"density_factor": 0.0,
+		"density_offset": 0.0,
+		"random_density_offset": false,
+		"simplex_surface_noise": false,
+		"island_noise_override": false,
+		"amplified": false
+	},
+	"default_block":{
+		"Name": "minecraft:stone"
+	},
+	"default_fluid":{
+		"Name": "minecraft:slime_block"
+	}
+}

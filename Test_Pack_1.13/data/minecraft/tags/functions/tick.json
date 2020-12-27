@@ -1,8 +1,0 @@
-{
-	"replace":false,
-	"values":[
-		"testpack:netherwater",
-		"testpack:smp_sleep_tick",
-		"testpack:time_tick"
-	]
-}

@@ -1,1 +1,0 @@
-give @p minecraft:end_portal_frame 12

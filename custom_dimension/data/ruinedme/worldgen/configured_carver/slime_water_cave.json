@@ -1,0 +1,6 @@
+{
+	"type":"underwater_cave",
+	"config":{
+		"probability":0.5
+	}
+}

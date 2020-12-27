@@ -1,0 +1,12 @@
+{
+	"type": "ruinedme:slime_dt",
+	"generator":{
+		"type":"minecraft:noise",
+		"seed": 1015660034241391618,
+		"settings": "minecraft:overworld",
+		"biome_source":{
+			"type":"minecraft:fixed",
+			"biome":"ruinedme:swamp"
+		}
+	}
+}
